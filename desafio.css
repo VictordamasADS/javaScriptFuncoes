@@ -1,0 +1,148 @@
+body {
+    background: white;
+}
+
+.container {
+    max-width: 340px;    /*largura máxima*/
+    margin: 50px auto;
+    background: rgb(29, 219, 233);    
+    padding: 20px;      /*preenchimento*/
+    border-radius: 10px;      /*raio de fronteira*/
+}
+
+.salvos {
+    max-width: 340px;    /*largura máxima*/
+    min-height: 340px;
+    margin-top: 5px;
+    margin: 50px auto;
+    background: rgb(29, 219, 233);    
+    padding: 20px;      /*preenchimento*/
+    border-radius: 10px;      /*raio de fronteira*/
+}
+
+.apagar {
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.salvar {
+    color: black
+}
+
+.apagar:hover {
+    color: white;
+    background-color: red;
+}
+
+.titulo {
+    margin-left: 60px;
+    color: white;
+}
+
+.nome {
+    margin-left: 23px; 
+}
+
+.duracao {
+    margin-left: 8px;
+}
+
+.gerente {
+    margin-left: 11px;
+}
+
+.cidade {
+    margin-left: 16px;
+}
+
+.custo {
+    margin-left: 24px;
+}
+
+.display1 { /*exibição*/
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 1em;
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+.display2 { /*exibição*/
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 1em;
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+.display3 { /*exibição*/
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 1em;
+    width: 200px;
+    padding: 5px;
+    height: 15px;
+    text-align: left;
+}
+
+.display4 { /*exibição*/
+    margin-top: 5px;
+    font-size: 1em;
+    width: 200px;
+    padding: 5px;
+    height: 15px;
+    text-align: left;
+}
+
+.display5 { /*exibição*/
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 1em;
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+.display6 { /*exibição*/
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 1em;
+    width: 200px;
+    height: 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 110px;
+    width: 30%;    /*largura*/
+    height: 25px;    /*altura*/
+    background: white;  /*cor de fundo*/
+    cursor: pointer;   /*mouse ponteiro*/
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background: black;
+}
+
+.sucesso {
+    color: green;
+    margin-left: 100px;
+}
+
+.erro{
+    color: red;
+    margin-left: 35px;
+}
+
+.projeto {
+    margin-bottom: 5px;
+}

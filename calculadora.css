@@ -1,0 +1,39 @@
+body {
+    background: rgb(250, 246, 248);
+}
+
+.container {
+    max-width: 400px;    /*largura máxima*/
+    margin: 50px auto;   /*margem*/
+    background: rgb(44, 44, 44);    
+    padding: 20px;      /*preenchimento*/
+    border-radius: 10px;      /*raio de fronteira*/
+}
+
+.calculadora {
+    background-color:white;
+    width: 400px;
+}
+
+.titulo {
+    color: white;   /*cor da letra*/
+}
+
+.display { /*exibição*/
+    font-size: 2em;
+    width: 98%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;    /*largura*/
+    height: 50px;    /*altura*/
+    font-size: 1em;   /*tamanho da fonte*/
+    background: rgb(202, 201, 201);  /*cor de fundo*/
+    cursor: pointer;   /*mouse ponteiro*/
+}
+
+.btn:hover { /*flutuar: muda o estado dos botões*/
+    background: grey;
+}
+
